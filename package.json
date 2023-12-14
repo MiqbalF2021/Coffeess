@@ -1,7 +1,6 @@
 {
   "name": "coffeess",
   "private": true,
-  "proxy" : "https://backend-coffeess.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
