@@ -1,6 +1,6 @@
   // src/App.jsx
   import React, { useState } from 'react';
-  import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+  import { Route, BrowserRouter, Routes } from 'react-router-dom';
   import LandingPage from './pages/LandingPage';
   import HomePage from './pages/HomePage';
   import AboutPage from './pages/AboutPage';
@@ -49,7 +49,7 @@
     };
 
     return (
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/register" element={<Register />} />
@@ -63,7 +63,7 @@
           <Route path="/product" element={<AddProduct />} />
           <Route path="/logout" element={<Login />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
     );
   }
   export default App;
