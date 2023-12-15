@@ -39,7 +39,7 @@ const MenuPage = ({ addToCart }) => {
         <Nav />
         <div className='bg-white'>
         <div className='pl-10 font-medium text-xl font-cuy'>Silahkan pilih Menu Favorit anda!</div>
-        <div className="font-cuy p-8 gap-6 items-center justify-center grid mb-8  rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-3 bg-white dark:bg-gray-800 sm:grid-cols-2">
+        <div className="font-cuy p-8 gap-6 items-center justify-center grid grid-cols-2 mb-8  rounded-lg shadow-sm dark:border-gray-700 md:mb-12 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 md:grid-cols-3 bg-white dark:bg-gray-800 sm:grid-cols-2">
         {menuData.slice(0, 50).map(menuItem => (
         <CardSatu 
           key={menuItem._id}
