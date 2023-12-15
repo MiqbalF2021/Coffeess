@@ -46,7 +46,7 @@ const HomePage = () => {
     <div className="flex flex-col-reverse md:flex-row items-center justify-between mt-8 px-4 md:px-20 lg:px-24 bg-orange-50 rounded-3xl shadow-md mb-20 p-4 md:p-10">
       <div className="w-full md:w-1/2">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Sejarah</h1>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Judul Sejarah</h2>
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2">Apa Itu Coffeess?</h2>
         <p className="text-gray-600 mb-4">
           Didirikan pada tahun 2023, Coffeess adalah startup kopi yang bercita-cita membuat kopi spesial terbaik untuk pelanggan. Dengan semangat inovatif dan komitmen untuk menyajikan pengalaman kopi yang tak terlupakan, Coffeess segera menjadi pusat perhatian di dunia kopi. Tim yang terdiri dari para ahli kopi, roaster berbakat, dan penggemar kopi sejati berkolaborasi untuk menciptakan campuran unik yang menggoda selera.
         </p>
