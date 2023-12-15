@@ -99,7 +99,7 @@ const Pay = ({  cartItems }) => {
     </div>
     <div className="max-w-md mx-auto">
       <div className="mb-2 block">
-        <Label htmlFor="alamat" value="alamat" className='font-bold'/>
+        <Label htmlFor="alamat" value="Alamat" className='font-bold'/>
       </div>
       <Textarea id="alamat"
             placeholder="Masukan Alamat lengkap disini"

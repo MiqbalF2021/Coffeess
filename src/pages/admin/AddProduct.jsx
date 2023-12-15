@@ -20,6 +20,7 @@ const AddProduct = () => {
         axios.post('https://backend-coffeess.vercel.app/menu', menuData)
           .then(response => {
             console.log(response.data);
+            alert('Add Product Berhasil');
             // Handle response jika diperlukan
           })
           .catch(error => {
