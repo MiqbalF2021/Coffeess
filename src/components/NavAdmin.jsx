@@ -74,7 +74,7 @@ const NavAdmin = () => {
         <div
           className={`${
             menuOpen ? 'translate-x-0' : 'translate-x-full'
-          } md:translate-x-0 transform transition-transform duration-300 md:transition-none w-1/2 h-1/4 md:w-auto md:flex flex-col md:flex-row items-end md:items-stretch fixed top-16   right-0 bg-transparent md:h-auto p-4 md:p-0 md:relative z-20`}
+          } md:translate-x-0 transform transition-transform duration-300 md:transition-none w-1/2 h-1/4 md:w-auto md:flex flex-col md:flex-row items-end md:items-stretch fixed top-16  md:top-0 lg:top-0 xl:top-0 2xl:top-0 right-0 bg-transparent md:h-auto p-4 md:p-0 md:relative z-20`}
         >
       <ul className="flex flex-col md:flex-row gap-4 md:gap-10 font-bold mb-4 md:mb-0 text-right md:text-left">
         <li>

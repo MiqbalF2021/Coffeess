@@ -4,10 +4,10 @@ const CardSatu = ({id, title, price, imageUrl, addToCart}) => {
   return (
     
     <div className="w-full max-w-sm bg-orange-50 rounded-lg shadow-md">
-      <a href="#">
+      <a>
           <h5 className="text-base sm:text-xl font-semibold tracking-tight text-gray-900 dark:text-white p-4">{title}</h5>
         </a>
-      <a href="#">
+      <a>
         <img className="p-8 rounded-t-lg" src={imageUrl} alt="product image" />
       </a>
       <div className="px-5 pb-5">
