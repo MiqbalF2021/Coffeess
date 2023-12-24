@@ -10,7 +10,7 @@ const Login = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         
-        axios.post('https://backend-coffeess-d4ebws52f-iqbals-projects-b2a1685a.vercel.app/login', { email, password })
+        axios.post('https://backend-coffeess.vercel.app/login', { email, password })
         .then(result => {
             console.log(result);
             if (result.data === "Success") {
