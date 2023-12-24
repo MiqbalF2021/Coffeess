@@ -48,8 +48,10 @@ const MenuPage = ({ addToCart }) => {
           price={menuItem.price}
           imageUrl={menuItem.imageUrl}
           addToCart={addToCart}
+          
         />
 ))}
+
         </div>
         </div>
         

@@ -103,6 +103,18 @@ const NavAdmin = () => {
         </li>
         <li>
           <Link
+            to="/manage"
+            className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:border-0 ${
+              location.pathname === '/manage' ? 'text-green-500' : 'hover:text-green-400'
+            } md:hover:bg-transparent md:p-0 dark:text-white ${
+              location.pathname === '/manage' ? 'md:dark:hover:text-green-800' : 'dark:hover:text-white'
+            } md:dark:hover:bg-transparent md:text-center md:w-1/4`}
+          >
+            Manage Product
+          </Link>
+        </li>
+        <li>
+          <Link
           onClick={handleLogout}
             to="/login"
             className={`block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:border-0 ${

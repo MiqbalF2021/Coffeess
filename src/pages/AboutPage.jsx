@@ -3,7 +3,6 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { useNavigate } from 'react-router-dom'
 import React,{ useEffect } from "react";
-import Warung from '../img/Warung.jpeg'
 
 const AboutPage = () => {
   const navigate = useNavigate();

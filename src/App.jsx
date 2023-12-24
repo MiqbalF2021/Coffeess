@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import AddProduct from "./pages/admin/AddProduct";
 import TransaksiAdminPage from "./pages/admin/Transaksi";
+import ManageProduct from "./pages/admin/ManageProduct";
 
 function App() {
   const [cartItems, setCartItems] = useState(() => {
@@ -62,6 +63,7 @@ function App() {
         <Route path="/transaksi" element={<TransaksiAdminPage />} />
         <Route path="/product" element={<AddProduct />} />
         <Route path="/logout" element={<Login />} />
+        <Route path="/manage" element={<ManageProduct />} />
       </Routes>
     </HashRouter>
   );
