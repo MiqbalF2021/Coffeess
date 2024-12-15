@@ -49,3 +49,7 @@ CoffeeSS Web App adalah aplikasi pemesanan kopi online yang dirancang untuk meme
   - Pilih pesanan yang akan dihapus dan tekan tombol "Delete Transaction".
 
 Dengan fungsionalitas CRUD yang komprehensif, CoffeeSS Web App memberikan pengalaman pengguna yang lengkap dalam memesan kopi secara online. Terus nikmati kenyamanan dan kepraktisan dalam menikmati kopi favorit Anda!
+
+## Backend Repository
+
+Untuk mengakses repository backend dari aplikasi ini, silakan kunjungi [CoffeeSS Backend](https://github.com/MiqbalF2021/backend-coffeess).
